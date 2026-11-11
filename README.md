@@ -9,202 +9,186 @@
 ```
 
 <p align="center">
-<b>Sobreviver e recomeçar — sem internet, sem rede, só com um telemóvel Android.</b><br>
-IA no próprio telemóvel · guias de sobrevivência · mapas e rotas offline · bússola · plantas pela câmara<br>
-poupança extrema de energia · guias para imprimir · e um jogo: <b>GENESIS</b>
+<b>Survive and rebuild — no internet, no network, just an Android phone.</b><br>
+On-device AI · survival guides · offline maps and routes · compass · plant ID by camera<br>
+extreme power saving · printable guides · and a game: <b>GENESIS</b>
 </p>
 
 <p align="center">
-<a href="https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk"><b>⬇️ DESCARREGAR O ORACLE (APK)</b></a>
+<a href="https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk"><b>⬇️ DOWNLOAD ORACLE (APK)</b></a>
 &nbsp;·&nbsp;
-<a href="https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk"><b>🎮 DESCARREGAR O JOGO GENESIS (APK)</b></a>
+<a href="https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk"><b>🎮 DOWNLOAD THE GENESIS GAME (APK)</b></a>
 &nbsp;·&nbsp;
-<a href="https://github.com/caiorlm/oracle-os/releases/latest"><b>📦 TODOS OS FICHEIROS</b></a>
+<a href="https://github.com/caiorlm/oracle-os-EN/releases/latest"><b>📦 ALL FILES</b></a>
 </p>
 
-> 🇬🇧 *English version further down.*
+> 🇵🇹🇧🇷 *Versão em português: [caiorlm/oracle-os](https://github.com/caiorlm/oracle-os).*
 
 ---
 
-## 📲 Instalar em 3 passos (para quem nunca usou o GitHub)
+## 📲 Install in 3 steps (for people who have never used GitHub)
 
-Não precisa de saber programar. **Faça isto no telemóvel Android, enquanto ainda tem internet.**
+No coding needed. **Do this on your Android phone, while you still have internet.**
 
 ```
  ┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
- │  PASSO 1                 │   │  PASSO 2                 │   │  PASSO 3                 │
+ │  STEP 1                  │   │  STEP 2                  │   │  STEP 3                  │
  │                          │   │                          │   │                          │
- │  Toque no link azul:     │   │  Abra o ficheiro         │   │  Abra o ORACLE.          │
+ │  Tap the blue link:      │   │  Open the file           │   │  Open ORACLE.            │
  │                          │   │  OracleOS.apk            │   │                          │
- │  ⬇️ DESCARREGAR O ORACLE │ → │  (aparece em             │ → │  Já funciona SEM         │
- │                          │   │   "Transferências")      │   │  internet. ✔             │
- │  (no topo desta página)  │   │  e toque em INSTALAR.    │   │                          │
+ │  ⬇️ DOWNLOAD ORACLE      │ → │  (it is in               │ → │  It already works        │
+ │                          │   │   "Downloads")           │   │  WITHOUT internet. ✔     │
+ │  (top of this page)      │   │  and tap INSTALL.        │   │                          │
  └──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
 ```
 
-1. **Toque em [⬇️ DESCARREGAR O ORACLE](https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk)**. O telemóvel descarrega o ficheiro `OracleOS.apk` (cerca de 120 MB).
-2. **Abra o ficheiro** (na notificação ou em *Ficheiros → Transferências*) e toque em **Instalar**.
-   - Se o Android disser *"Por segurança, o telemóvel não pode instalar apps desta origem"*: toque em **Definições → Permitir desta origem**, volte atrás e toque **Instalar** outra vez.
-   - Se o *Play Protect* avisar que a app é desconhecida: toque em **Mais detalhes → Instalar mesmo assim**. (A app é aberta: o código está todo neste repositório.)
-3. **Abra o Oracle.** Os **71 guias** (português e inglês) já estão lá dentro. A bússola, as plantas, a emergência e a poupança de energia funcionam logo, sem internet.
+1. **Tap [⬇️ DOWNLOAD ORACLE](https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk)**. Your phone downloads `OracleOS.apk` (about 120 MB).
+2. **Open the file** (from the notification or *Files → Downloads*) and tap **Install**.
+   - If Android says *"For your security, your phone is not allowed to install unknown apps from this source"*: tap **Settings → Allow from this source**, go back and tap **Install** again.
+   - If *Play Protect* warns about an unknown app: tap **More details → Install anyway**. (The app is open source: all the code is in this repository.)
+3. **Open Oracle.** The **71 guides** (English and Portuguese) are already inside. Compass, plants, emergency and power saving work straight away, with no internet.
+   - 🌐 **Language:** tap **EN** at the top right of the Home screen to switch the whole app to English.
 
-### Extras (opcionais, mas recomendados)
+### Extras (optional, recommended)
 
-| O quê | Para quê | Como |
+| What | What for | How |
 |---|---|---|
-| 🎮 [`GENESIS.apk`](https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk) | O jogo (fazenda + bichinho + linhagem) | Instale igual ao Oracle. Abre-se no Oracle pela aba **JOGO** ▶ |
-| 🧠 [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Qwen3.5-0.8B-Q4_K_M.gguf) | A **IA** que responde no telemóvel, sem internet (508 MB) | Descarregue → no Oracle: **Sistema → Importar GGUF** → escolha o ficheiro → aba **IA** → Ativar |
-| 🖨️ [`Oracle-Impressao-PT.pdf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Oracle-Impressao-PT.pdf) | Todos os guias em papel (A4), por ordem de prioridade | Imprima **já**, guarde em saco plástico, em 2 sítios |
-| 🖨️ [`Oracle-Print-EN.pdf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Oracle-Print-EN.pdf) | The same, in English | Print it now |
+| 🎮 [`GENESIS.apk`](https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk) | The game (farm + companion + lineage) | Install it like Oracle. Open it from Oracle's **GAME** tab ▶. On the first screen tap **English** |
+| 🧠 [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Qwen3.5-0.8B-Q4_K_M.gguf) | The **AI** that answers on your phone, no internet (508 MB) | Download → in Oracle: **System → Import GGUF** → pick the file → **AI** tab → Activate |
+| 🖨️ [`Oracle-Print-EN.pdf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Oracle-Print-EN.pdf) | All the guides on paper (A4), in priority order | Print it **now**, keep it in a plastic bag, in 2 places |
 
-> 💡 **Papel não precisa de bateria.** Imprima pelo menos os guias 1–3: primeiros socorros, água e o plano de 50 anos.
+> 💡 **Paper needs no battery.** Print at least guides 1–3: first aid, water and the 50-year plan.
 
 ---
 
-## 🧭 O que tem dentro — e o que cada parte faz
+## 🧭 What's inside — and what each part does
 
 ```
                          ┌───────────────────────────────┐
                          │          ORACLE OS            │
-                         │   (tudo dentro do telemóvel)  │
+                         │  (everything inside the phone)│
                          └───────────────┬───────────────┘
      ┌──────────────┬──────────────┬─────┴────────┬──────────────┬──────────────┐
      ▼              ▼              ▼              ▼              ▼              ▼
  ┌────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
- │ ⌂ INÍCIO│  │ ◇  IA    │   │ ⌖  MAPA  │   │ ▤ ACERVO │   │ ▶  JOGO  │   │ ⚙ SISTEMA│
+ │ ⌂ HOME │   │ ◇  AI    │   │ ⌖  MAP   │   │ ▤LIBRARY │   │ ▶  GAME  │   │ ⚙ SYSTEM │
  └────┬───┘   └────┬─────┘   └────┬─────┘   └────┬─────┘   └────┬─────┘   └────┬─────┘
-  painel de     responde       mapa offline   guias e         GENESIS       energia,
-  estado,       perguntas      + GPS +        manuais em      (fazenda,     impressão,
-  EMERGÊNCIA,   com as         bússola +      árvore:         bichinho,     modelos de
-  plantas,      fontes do      locais úteis   saúde, água,    linhagem)     IA, idioma
-  bússola,      acervo         e rotas        ofícios…
-  rádio
+  status panel,  answers        offline map    guides and     GENESIS       power,
+  EMERGENCY,     questions      + GPS +        manuals in a   (farm,        printing,
+  plants,        citing the     compass +      tree: health,  companion,    AI models,
+  compass,       library        useful places  water, crafts… lineage)      language
+  radio
 ```
 
-| Ícone | Parte | O que faz | Precisa de internet? |
+| Icon | Part | What it does | Needs internet? |
 |:-:|---|---|:-:|
-| ⚠ | **Emergência** | Botão grande no Início: discador (112/999/911), SMS com as suas coordenadas, rádio FM | ❌ |
-| ◇ | **IA local** | Faça perguntas ("como purificar água?") — a IA responde no telemóvel e mostra **de que guia** tirou a resposta | ❌ |
-| ▤ | **Acervo** | Biblioteca em árvore: *Saúde · Sobrevivência · Água · Ofícios · Navegação · Espírito · Sociedade · Reconstrução*. Abre PDFs e guias mesmo sem IA | ❌ |
-| ⌖ | **Mapa** | Mapa offline, a sua posição GPS, locais úteis (hospitais, abrigos, água) e rotas | ❌ * |
-| ⊕ | **Bússola** | Norte verdadeiro, seguir um rumo, aviso de calibração | ❌ |
-| ✿ | **Plantas** | Fotografe uma planta → nome provável + artigo para confirmar (nunca coma só com base na app) | ❌ |
-| ⚡ | **Energia** | Poupança extrema: ecrã preto, brilho mínimo, IA e GPS desligados, dicas para durar semanas | ❌ |
-| ⎙ | **Imprimir** | Os guias e manuais vitais em PDF A4, prontos a imprimir | ❌ |
-| ▶ | **Jogo** | GENESIS — para passar o tempo, dos 5 anos em diante | ❌ |
-| 🎬 | **Introdução** | Animação 3D estilo PS1 ao abrir (com sinal passa sempre; sem sinal só 1 vez) | ❌ |
+| ⚠ | **Emergency** | Big button on Home: dialer (112/999/911), SMS with your coordinates, FM radio | ❌ |
+| ◇ | **Local AI** | Ask questions ("how do I purify water?") — the AI answers on the phone and shows **which guide** the answer came from | ❌ |
+| ▤ | **Library** | A tree: *Health · Survival · Water · Crafts · Navigation · Spirit · Society · Rebuilding*. Opens PDFs and guides even without AI | ❌ |
+| ⌖ | **Map** | Offline map, your GPS position, useful places (hospitals, shelters, water) and routes | ❌ * |
+| ⊕ | **Compass** | True north, follow a bearing, calibration warning | ❌ |
+| ✿ | **Plants** | Photograph a plant → likely name + an article to confirm (never eat anything based on the app alone) | ❌ |
+| ⚡ | **Power** | Extreme saving: black screen, minimum brightness, AI and GPS off, tips to last for weeks | ❌ |
+| ⎙ | **Print** | The vital guides and manuals as A4 PDFs, ready to print | ❌ |
+| ▶ | **Game** | GENESIS — to pass the time, ages 5 and up | ❌ |
+| 🎬 | **Intro** | A PS1-style 3D animation on launch (with signal it always plays; without signal only once) | ❌ |
 
-\* *O mapa detalhado e as enciclopédias grandes (Wikipedia, medicina, iFixit…) são pacotes de vários GB: veja "Conteúdos grandes" abaixo.*
+\* *The detailed map and the big encyclopedias (Wikipedia, medicine, iFixit…) are packs of several GB: see "Large content" below.*
 
-### 📚 Os 71 guias incluídos (PT + EN)
+### 📚 The 71 built-in guides (EN + PT)
 
 ```
- 🩹 Primeiros socorros      💧 Água potável           📋 Plano dos 50 anos
- 🔥 Fogo                    🏠 Apagão, frio e abrigo   🍲 Cozinhar sem luz
- 🥫 Conservar comida        🧼 Higiene com pouca água  ☢️ Guerra e ataques
- 🚑 Busca e resgate         🤱 Parto e plantas med.    🌿 Plantas silvestres
- 🎣 Pesca                   🪤 Caça e armadilhas       🌾 Sementes e cereais
- 🐐 Animais e veterinária   🧱 Construção natural      ☀️ Energia sem rede
- ⚗️ Química básica          🔨 Ferraria/olaria/carpint. 🧵 Têxteis e couro
- 🪢 Cordas e nós            🧭 Navegação               🌊 Rios, lagos e mar
- 📻 Comunicação sem energia 📡 Rádio                   🌦️ Tempo e calendário
- 🤝 Comunidade e educação   🛡️ Proteger a família       🧠 Saúde mental
- 🤸 Alongamentos e dores    🥋 Defesa pessoal          🧘 Yoga · Meditação · Chakras
+ 🩹 First aid               💧 Drinking water          📋 The 50-year plan
+ 🔥 Fire                    🏠 Blackout, cold, shelter 🍲 Cooking without power
+ 🥫 Food preservation       🧼 Hygiene with little water ☢️ War and attacks
+ 🚑 Search and rescue       🤱 Childbirth & med. plants 🌿 Wild plants
+ 🎣 Fishing                 🪤 Hunting and trapping    🌾 Seeds and grains
+ 🐐 Animals and vet care    🧱 Natural building        ☀️ Off-grid energy
+ ⚗️ Basic chemistry         🔨 Smithing/pottery/carpentry 🧵 Textiles and leather
+ 🪢 Ropes and knots         🧭 Navigation              🌊 Rivers, lakes and sea
+ 📻 Comms without power     📡 Radio                   🌦️ Weather and calendar
+ 🤝 Community & education   🛡️ Protecting your family  🧠 Mental health
+ 🤸 Stretching and pain     🥋 Self-defence            🧘 Yoga · Meditation · Chakras
 ```
 
 ---
 
-## 🎮 GENESIS — Legado da Vida
+## 🎮 GENESIS — Legacy of Life
 
 ```
    ┌─────────────────────────────────────────┐
-   │ Dia 3 · 14:30 · Primavera · céu limpo   │
-   │ VIDA ████████  FOME █████  ÁGUA ██████  │
+   │ Day 3 · 14:30 · Spring · clear          │
+   │ LIFE ████████  FOOD █████  WATER ██████ │
    │                                         │
    │   🏠        ┌┬┬┬┬┬┬┬┬┬┐       ≈≈≈≈       │
    │   🪣  🧍 🐾  │🌱🌱🥕🥕🥬│       ≈≈🌉≈ 🌲🌲   │
    │            └┴┴┴┴┴┴┴┴┴┘       ≈≈≈≈ 🌲🌲🌲  │
-   │                          👵 Vó Rosa      │
+   │                       👵 Grandma Rosa    │
    │   [◀][▲][▼][▶]                  (B) (A)  │
    └─────────────────────────────────────────┘
 ```
 
-Um jogo **original**, 100% offline, inspirado nos clássicos de fazenda e de bichinhos virtuais:
+An **original**, 100% offline game inspired by classic farming and virtual-pet games:
 
-- 🧍 **Crie a sua personagem** — o aspeto é gerado a partir de um **ID único (SHA-256 + 256 bits aleatórios)**: ninguém tem uma igual.
-- 🐾 **Cuide do seu bichinho** — fome, água, alegria, energia, limpeza e saúde.
-- 🌱 **Fazenda** — 8 culturas (alface, cenoura, batata, milho, feijão, tomate, abóbora, morango): cavar, plantar, regar, colher.
-- ⏰ **O tempo corre sempre** — 1 hora do jogo = 6 minutos reais; 1 dia real = 10 dias do jogo. Com o telemóvel fechado, as plantas crescem e a personagem come e bebe da mochila.
-- 🥚 **Linhagem** — no dia 100 aparece o ovo da família; 10% do que recolhe vai para ele; os descendentes continuam a história.
-- 👶 **Modo 5–10 anos** — botões grandes, pouco texto, alertas simples ("O seu bichinho está com sede! DAR ÁGUA").
+- 🧍 **Create your character** — the look is generated from a **unique ID (SHA-256 + 256 random bits)**: nobody has the same one.
+- 🐾 **Look after your companion** — food, water, happiness, energy, hygiene and health.
+- 🌱 **Farm** — 8 crops (lettuce, carrot, potato, corn, bean, tomato, pumpkin, strawberry): dig, plant, water, harvest.
+- ⏰ **Time always runs** — 1 game hour = 6 real minutes; 1 real day = 10 game days. With the phone closed, crops keep growing and your character eats and drinks from the bag.
+- 🥚 **Lineage** — on day 100 the family egg appears; 10% of everything you collect goes to it; descendants carry the story on.
+- 👶 **Ages 5–10 mode** — big buttons, little text, simple alerts ("Your companion is thirsty! GIVE WATER").
 
-**Controlos:** setas = andar · **A** = agir (cavar, plantar, regar, colher, falar) · **B** = menu.
+**Controls:** arrows = walk · **A** = act (dig, plant, water, harvest, talk) · **B** = menu.
 
 ---
 
-## 🗂️ Como o projeto está organizado (para quem quer mexer)
+## 🗂️ How the project is organised (for developers)
 
 ```
 oracle-os/
-├── app/                    ← App Android (Kotlin + Jetpack Compose)
+├── app/                    ← Android app (Kotlin + Jetpack Compose)
 │   └── src/main/
-│       ├── java/…/feature/ ← cada ecrã: chat, maps, knowledge, plants, intro, game, print…
-│       └── assets/guias/   ← os 71 guias que vêm dentro do APK
-├── core/                   ← regras, contratos, políticas de energia e de IA
-├── knowledge/              ← base de dados dos documentos + pesquisa (SQLite FTS5)
-├── inference/              ← IA local (llama.cpp, modelos GGUF)
-├── genesis/                ← 🎮 o jogo (Godot 4.7, GDScript)
-│   ├── autoload/Game.gd    ←   estado, relógio, simulação, gravação
-│   ├── core/               ←   matemática, identidade/genoma, sprites e tiles gerados em código
-│   ├── ui/ world/          ←   ecrãs, controlos de toque, o vale 64×64
-│   └── tests/              ←   559 testes automáticos + partida automática
+│       ├── java/…/feature/ ← one folder per screen: chat, maps, knowledge, plants, intro, game, print…
+│       └── assets/guias/   ← the 71 guides shipped inside the APK
+├── core/                   ← rules, contracts, power and AI policies
+├── knowledge/              ← document database + search (SQLite FTS5)
+├── inference/              ← local AI (llama.cpp, GGUF models)
+├── genesis/                ← 🎮 the game (Godot 4.7, GDScript)
+│   ├── autoload/Game.gd    ←   state, clock, simulation, saving
+│   ├── core/               ←   maths, identity/genome, sprites and tiles generated in code
+│   ├── ui/ world/          ←   screens, touch controls, the 64×64 valley
+│   └── tests/              ←   559 automated tests + an automated playthrough
 ├── companion/
-│   ├── library-builder/    ← catálogos de fontes, descarregador, pacotes assinados, guias (.md)
-│   └── i18n/               ← traduções PT/EN da interface
-├── scripts/                ← automação: compilar, descarregar, instalar por USB
-└── docs/                   ← arquitetura, permissões, testes, formato dos pacotes
+│   ├── library-builder/    ← source catalogues, downloader, signed packs, guides (.md)
+│   └── i18n/               ← PT/EN interface translations
+├── scripts/                ← automation: build, download, install over USB
+└── docs/                   ← architecture, permissions, tests, pack format
 ```
 
-| Quero… | Onde |
+| I want to… | Where |
 |---|---|
-| Compilar o Oracle | [docs/DESENVOLVIMENTO.md](docs/DESENVOLVIMENTO.md) — `./gradlew :app:assembleDebug` (JDK 17, Android SDK 35, NDK 27) |
-| Abrir o jogo no Godot | Godot **4.7.2** → *Importar* → `genesis/project.godot` |
-| Correr os testes do jogo | `godot --headless --path genesis --script res://tests/run_tests.gd` |
-| Trocar o modelo de IA | Qualquer GGUF compatível com llama.cpp → **Sistema → Modelos / Importar GGUF** |
-| Escrever/editar um guia | `companion/library-builder/guias/*.md` (Markdown simples) |
-| Gerar os PDFs de impressão | `python3 companion/library-builder/build_print_pack.py` |
+| Build Oracle | [docs/DESENVOLVIMENTO.md](docs/DESENVOLVIMENTO.md) — `./gradlew :app:assembleDebug` (JDK 17, Android SDK 35, NDK 27) |
+| Open the game in Godot | Godot **4.7.2** → *Import* → `genesis/project.godot` |
+| Run the game tests | `godot --headless --path genesis --script res://tests/run_tests.gd` |
+| Swap the AI model | Any llama.cpp-compatible GGUF → **System → Models / Import GGUF** |
+| Write or edit a guide | `companion/library-builder/guias/*.md` (plain Markdown; `*-en.md` are the English ones) |
+| Build the print PDFs | `python3 companion/library-builder/build_print_pack.py` |
 
-### 📦 Conteúdos grandes (não estão no GitHub)
+### 📦 Large content (not on GitHub)
 
-As enciclopédias offline (Wikipedia, medicina, iFixit, Wikibooks…), o mapa detalhado e os manuais de terceiros somam **mais de 70 GB** e alguns não podem ser redistribuídos. Por isso **não** estão aqui: os scripts em `companion/library-builder/` (`fetch.py` + catálogos `survival-catalog*.json`) descarregam-nos **das fontes originais**, verificam SHA-256 e constroem pacotes assinados (Ed25519) que a app confere antes de usar.
+The offline encyclopedias (Wikipedia, medicine, iFixit, Wikibooks…), the detailed map and third-party manuals add up to **more than 70 GB**, and some may not be redistributed. So they are **not** here: the scripts in `companion/library-builder/` (`fetch.py` + the `survival-catalog*.json` catalogues) download them **from the original sources**, check SHA-256 and build signed packs (Ed25519) that the app verifies before use.
 
 ```
- fontes originais ──fetch.py──▶ downloads/ ──build_knowledge_pack.py──▶ pacote assinado ──USB──▶ 📱
+ original sources ──fetch.py──▶ downloads/ ──build_knowledge_pack.py──▶ signed pack ──USB──▶ 📱
  (Kiwix, Gutenberg,            (SHA-256)                               (Ed25519)
-  OMS, MSF, FAO…)
+  WHO, MSF, FAO…)
 ```
 
 ---
 
-## ⚖️ Licenças e avisos
+## ⚖️ Licences and warnings
 
-- **Código** do Oracle OS e do GENESIS: **[GPL-3.0](LICENSE)** — pode usar, estudar, mudar e partilhar; versões alteradas distribuídas têm de continuar abertas.
-- **Guias Oracle** (`guias/*.md`): GPL-3.0, como o resto do projeto.
-- **Modelo Qwen 3.5**: Apache-2.0 (equipa Qwen / Alibaba Cloud).
-- **Conteúdos de terceiros** mantêm a licença de origem (registada em cada catálogo).
-- ⚠️ **Os guias não substituem formação nem profissionais.** Em emergência, ligue para os serviços locais (112 / 999 / 911) se existirem. Nunca coma uma planta só porque a app a identificou.
-
----
-
-# 🇬🇧 English
-
-**Oracle OS** is a **100% offline** Android app to survive and rebuild: on-device AI, offline maps and routes, a survival & rebuilding library (71 built-in guides in Portuguese and English), compass, plant ID by camera, FM radio, extreme power saving and a print-ready guide pack. It includes **GENESIS — Legacy of Life**, an original offline farm + virtual pet + lineage game (ages 5+).
-
-### Install in 3 steps
-1. On your Android phone, tap **[⬇️ download Oracle (APK)](https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk)**.
-2. Open `OracleOS.apk` and tap **Install** (allow "install from this source" if asked; on Play Protect choose *Install anyway*).
-3. Open Oracle — the guides are already inside and work without internet.
-
-Optional: **[GENESIS.apk](https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk)** (the game, opens from the **GAME** tab), the **[AI model](https://github.com/caiorlm/oracle-os/releases/latest/download/Qwen3.5-0.8B-Q4_K_M.gguf)** (import it in **System → Import GGUF**) and the **[printable guides](https://github.com/caiorlm/oracle-os/releases/latest/download/Oracle-Print-EN.pdf)**. Do it while you still have internet.
-
-**For developers:** Android app in `app/` (Kotlin/Compose/llama.cpp), game in `genesis/` (Godot 4.7, 559 automated tests), library tooling in `companion/`. Code is **GPL-3.0**; the Qwen model is Apache-2.0; large third-party packs are fetched from their original sources by `companion/library-builder/fetch.py`.
+- **Code** of Oracle OS and GENESIS: **[GPL-3.0](LICENSE)** — use, study, change and share it; modified versions you distribute must stay open.
+- **Oracle guides** (`guias/*.md`): GPL-3.0, like the rest of the project.
+- **Qwen 3.5 model**: Apache-2.0 (Qwen team / Alibaba Cloud).
+- **Third-party content** keeps its original licence (recorded in each catalogue).
+- ⚠️ **The guides do not replace training or professionals.** In an emergency, call local services (112 / 999 / 911) if they exist. Never eat a plant just because the app identified it.
