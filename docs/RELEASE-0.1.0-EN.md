@@ -6,7 +6,7 @@
 |---|---|
 | [`OracleOS.apk`](https://github.com/caiorlm/oracle-os/releases/latest/download/OracleOS.apk) | The app: built-in guides, compass, plants, maps, power saving, emergency, Game tab |
 | [`GENESIS.apk`](https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk) | The game (farm, companion, lineage) — opens from the GAME tab |
-| [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Qwen3.5-0.8B-Q4_K_M.gguf) | Local AI (optional, 508 MB): System → Import GGUF |
+| [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_K_M.gguf) | Local AI (optional, 508 MB): System → Import GGUF |
 | `Oracle-Print-EN.pdf` | Every guide, ready to print on A4 |
 | `SHA256SUMS.txt` | Checksums to verify the files |
 

@@ -54,8 +54,10 @@ No coding needed. **Do this on your Android phone, while you still have internet
 | What | What for | How |
 |---|---|---|
 | 🎮 [`GENESIS.apk`](https://github.com/caiorlm/oracle-os/releases/latest/download/GENESIS.apk) | The game (farm + companion + lineage) | Install it like Oracle. Open it from Oracle's **GAME** tab ▶. On the first screen tap **English** |
-| 🧠 [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Qwen3.5-0.8B-Q4_K_M.gguf) | The **AI** that answers on your phone, no internet (508 MB) | Download → in Oracle: **System → Import GGUF** → pick the file → **AI** tab → Activate |
+| 🧠 [`Qwen3.5-0.8B-Q4_K_M.gguf`](https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_K_M.gguf) | The **AI** that answers on your phone, no internet (508 MB) | Download → in Oracle: **System → Import GGUF** → pick the file → **AI** tab → Activate |
 | 🖨️ [`Oracle-Print-EN.pdf`](https://github.com/caiorlm/oracle-os/releases/latest/download/Oracle-Print-EN.pdf) | All the guides on paper (A4), in priority order | Print it **now**, keep it in a plastic bag, in 2 places |
+
+> 🧠 The model downloads from **Hugging Face** (the same official file, SHA-256 `bd258782e35f7f45…`, checked against our `SHA256SUMS.txt`).
 
 > 💡 **Paper needs no battery.** Print at least guides 1–3: first aid, water and the 50-year plan.
 
